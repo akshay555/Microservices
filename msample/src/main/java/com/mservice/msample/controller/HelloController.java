@@ -13,6 +13,7 @@ public class HelloController {
 
 	@GetMapping(path="/hello-world")
 	public String helloworld() {
+		System.out.println("Hello");
 		return "Hello World";
 	} 
 	
